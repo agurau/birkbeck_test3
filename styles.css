@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  /* background-color: papayawhip; */
+  min-width: fit-content;
+}
+
+body,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+/*Navigation*/
+
+#top-nav .left-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0;
+  flex-grow: 1;
+  /* align-items: center; */
+}
+
+#top-nav {
+  background-color: bisque;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-family: "Great Vibes", cursive;
+}
+
+#top-nav li {
+  list-style-type: none;
+  font-size: 1rem;
+  display: block;
+}
+
+#top-nav li a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #41414d;
+  padding: 10px 20px;
+}
+
+#top-nav li a:hover {
+  color: lightsalmon;
+}
+
+#top-nav .right-items {
+  display: flex;
+  /* justify-content: flex-start; */
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+/*Header*/
+
+header {
+  background-color: #fff;
+  font-family: "Great Vibes", cursive;
+}
+
+header h1 {
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+  font-size: 3rem;
+  color: lightsalmon;
+}
+
+#top-intro {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.top-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quote {
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+  font-size: 1rem;
+  color: lightsalmon;
+  display: flex;
+  align-items: center;
+}
+
+/*Banner to retain audience*/
+
+#info-to-retain-audience {
+  padding-top: 3.5rem;
+}
+
+#info-to-retain-audience .container {
+  background-color: bisque;
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+
+#awareness-social-platforms {
+  color: rgb(182, 110, 29);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#awareness-social-platforms p {
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+  color: #41414d;
+}
+
+#awareness-social-platforms h3 {
+  display: flex;
+  justify-content: center;
+}
+
+#awareness-image {
+  margin: 1rem 1rem;
+}
+
+/*Boss your life*/
+
+#call-to-action {
+  background-color: #fff;
+  color: lightsalmon;
+  padding: 3.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#call-to-action .container {
+  display: flex;
+  margin: 0 auto;
+  height: 300px;
+  width: 100%;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+
+.button {
+  border: none;
+  background-color: bisque;
+  color: lightsalmon;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+  outline: none;
+}
+
+.button:hover {
+  background-color: lightsalmon;
+  color: #fff;
+}
+
+.boss {
+  width: 320px;
+  height: 300px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+#boss-your-life {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#life-image {
+  width: 400px;
+}
+
+#website-tools {
+  display: flex;
+  align-items: center;
+}
+
+#website-tools p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+/*Link to articles*/
+
+#article-topics {
+  height: 200px;
+  display: flex;
+}
+
+#article-topics .internal-link {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0 0;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+#article-topics li a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #41414d;
+  padding: 10px 20px;
+}
+
+/*Contact Page*/
+
+.wrapper {
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-form {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: bisque;
+  display: flex;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg {
+  width: 48%;
+}
+
+.input-fields .input,
+.msg textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid lightsalmon;
+  padding: 5%;
+  color: lightsalmon;
+  width: 90%;
+}
+
+.msg textarea {
+  height: 205px;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  background: rgb(182, 110, 29);
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-form {
+    flex-direction: column;
+    width: 250px;
+  }
+  .msg textarea {
+    height: 70px;
+  }
+
+  .input-fields,
+  .msg {
+    width: 100%;
+  }
+}
